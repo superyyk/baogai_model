@@ -1,4 +1,4 @@
-package main
+package model
 
 type UsersInfo struct {
 	Id     int    `gorm:"column:id" json:"id"`
