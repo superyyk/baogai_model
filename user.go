@@ -10,6 +10,7 @@ import (
 
 type Req struct {
 	Id string
+	Ty int
 }
 type Resp struct {
 	UserInfo model.UsersInfo
